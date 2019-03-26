@@ -16,6 +16,7 @@
 		6C9193C72248DDA900F19C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193C62248DDA900F19C1D /* main.m */; };
 		6C9193D12248DDA900F19C1D /* ModuleATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193D02248DDA900F19C1D /* ModuleATests.m */; };
 		6C9193DC2248DDA900F19C1D /* ModuleAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193DB2248DDA900F19C1D /* ModuleAUITests.m */; };
+		6C919438224A30C700F19C1D /* ModuleA_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C919437224A30C700F19C1D /* ModuleA_FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6C9193D72248DDA900F19C1D /* ModuleAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9193DB2248DDA900F19C1D /* ModuleAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAUITests.m; sourceTree = "<group>"; };
 		6C9193DD2248DDA900F19C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C919436224A30C700F19C1D /* ModuleA_FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleA_FirstViewController.h; sourceTree = "<group>"; };
+		6C919437224A30C700F19C1D /* ModuleA_FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleA_FirstViewController.m; sourceTree = "<group>"; };
 		73C2D000889F869AD11E25DF /* Pods_ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,6 +155,8 @@
 		6C9193E92248E08D00F19C1D /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				6C919436224A30C700F19C1D /* ModuleA_FirstViewController.h */,
+				6C919437224A30C700F19C1D /* ModuleA_FirstViewController.m */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9193BC2248DDA800F19C1D /* ViewController.m in Sources */,
+				6C919438224A30C700F19C1D /* ModuleA_FirstViewController.m in Sources */,
 				6C9193C72248DDA900F19C1D /* main.m in Sources */,
 				6C9193B92248DDA800F19C1D /* AppDelegate.m in Sources */,
 			);
