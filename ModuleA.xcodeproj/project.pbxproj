@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		41BA7297F5269210DC1F1B12 /* Pods_ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C2D000889F869AD11E25DF /* Pods_ModuleA.framework */; };
+		6C0AD68A224B6E6600B57A86 /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0AD689224B6E6600B57A86 /* Target_ModuleA.m */; };
+		6C0AD68B224B6F6200B57A86 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C919437224A30C700F19C1D /* FirstViewController.m */; };
 		6C9193B92248DDA800F19C1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193B82248DDA800F19C1D /* AppDelegate.m */; };
 		6C9193BC2248DDA800F19C1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193BB2248DDA800F19C1D /* ViewController.m */; };
 		6C9193BF2248DDA800F19C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9193BD2248DDA800F19C1D /* Main.storyboard */; };
@@ -16,7 +18,6 @@
 		6C9193C72248DDA900F19C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193C62248DDA900F19C1D /* main.m */; };
 		6C9193D12248DDA900F19C1D /* ModuleATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193D02248DDA900F19C1D /* ModuleATests.m */; };
 		6C9193DC2248DDA900F19C1D /* ModuleAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9193DB2248DDA900F19C1D /* ModuleAUITests.m */; };
-		6C919438224A30C700F19C1D /* ModuleA_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C919437224A30C700F19C1D /* ModuleA_FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		33F2C33B8D52CD9281B7BA88 /* Pods-ModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA.release.xcconfig"; path = "Target Support Files/Pods-ModuleA/Pods-ModuleA.release.xcconfig"; sourceTree = "<group>"; };
 		482D5F155CE5E5AC6609803F /* Pods-ModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleA.debug.xcconfig"; path = "Target Support Files/Pods-ModuleA/Pods-ModuleA.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0AD688224B6E6600B57A86 /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		6C0AD689224B6E6600B57A86 /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
 		6C9193B42248DDA800F19C1D /* ModuleA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9193B72248DDA800F19C1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C9193B82248DDA800F19C1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +58,8 @@
 		6C9193D72248DDA900F19C1D /* ModuleAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9193DB2248DDA900F19C1D /* ModuleAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAUITests.m; sourceTree = "<group>"; };
 		6C9193DD2248DDA900F19C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C919436224A30C700F19C1D /* ModuleA_FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleA_FirstViewController.h; sourceTree = "<group>"; };
-		6C919437224A30C700F19C1D /* ModuleA_FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleA_FirstViewController.m; sourceTree = "<group>"; };
+		6C919436224A30C700F19C1D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6C919437224A30C700F19C1D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		73C2D000889F869AD11E25DF /* Pods_ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +96,15 @@
 				33F2C33B8D52CD9281B7BA88 /* Pods-ModuleA.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C0AD687224B6E4200B57A86 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				6C0AD688224B6E6600B57A86 /* Target_ModuleA.h */,
+				6C0AD689224B6E6600B57A86 /* Target_ModuleA.m */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		6C9193AB2248DDA800F19C1D = {
@@ -155,8 +167,9 @@
 		6C9193E92248E08D00F19C1D /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				6C919436224A30C700F19C1D /* ModuleA_FirstViewController.h */,
-				6C919437224A30C700F19C1D /* ModuleA_FirstViewController.m */,
+				6C0AD687224B6E4200B57A86 /* Targets */,
+				6C919436224A30C700F19C1D /* FirstViewController.h */,
+				6C919437224A30C700F19C1D /* FirstViewController.m */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -325,8 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0AD68A224B6E6600B57A86 /* Target_ModuleA.m in Sources */,
 				6C9193BC2248DDA800F19C1D /* ViewController.m in Sources */,
-				6C919438224A30C700F19C1D /* ModuleA_FirstViewController.m in Sources */,
+				6C0AD68B224B6F6200B57A86 /* FirstViewController.m in Sources */,
 				6C9193C72248DDA900F19C1D /* main.m in Sources */,
 				6C9193B92248DDA800F19C1D /* AppDelegate.m in Sources */,
 			);

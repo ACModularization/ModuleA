@@ -7,7 +7,18 @@
 //
 
 #import "Target_ModuleA.h"
+#import "FirstViewController.h"
 
 @implementation Target_ModuleA
+
+- (UIViewController *)Action_Category_ViewController:(NSDictionary *)params {
+    typedef void (^CallbackType)(NSString *);
+    CallbackType callback = params[@"callback"];
+    if (callback) {
+        callback(@"success");
+    }
+    FirstViewController *viewController = [[FirstViewController alloc] init];
+    return viewController;
+}
 
 @end
