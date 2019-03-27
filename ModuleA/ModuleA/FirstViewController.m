@@ -1,18 +1,18 @@
 //
-//  ModuleA_FirstViewController.m
+//  FirstViewController.m
 //  ModuleA
 //
 //  Created by 张亚浩 on 2019/3/26.
 //  Copyright © 2019 Ace. All rights reserved.
 //
 
-#import "ModuleA_FirstViewController.h"
+#import "FirstViewController.h"
 
-@interface ModuleA_FirstViewController ()
+@interface FirstViewController ()
 
 @end
 
-@implementation ModuleA_FirstViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

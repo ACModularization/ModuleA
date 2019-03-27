@@ -1,5 +1,5 @@
 //
-//  ModuleA_FirstViewController.h
+//  FirstViewController.h
 //  ModuleA
 //
 //  Created by 张亚浩 on 2019/3/26.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ModuleA_FirstViewController : UIViewController
+@interface FirstViewController : UIViewController
 
 @end
 
