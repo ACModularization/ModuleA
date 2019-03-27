@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is ModuleA
                    DESC
 
-  s.homepage     = "https://github.com/yymodularization/ModuleA"
+  s.homepage     = "https://github.com/ACModularization/ModuleA"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
-  # Or just: s.author    = "CasaTaloyum"
-  # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
-  # s.social_media_url   = "http://twitter.com/CasaTaloyum"
+  s.author             = { "Ace" => "aoe.orz@gmail.com" }
+  # Or just: s.author    = "Ace"
+  # s.authors            = { "Ace" => "aoe.orz@gmail.com" }
+  # s.social_media_url   = "http://twitter.com/Ace"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yymodularization/ModuleA.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/ACModularization/ModuleA.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
